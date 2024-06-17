@@ -1,0 +1,2 @@
+Measure Table : DAX Expression : Measure_Table = Row("Column", BLANK())
+Rank Table : DAX Expression : RankTable = DATATABLE("Sort",INTEGER,"Type",STRING,"No",INTEGER,{  {0,"All Sales",0},{1,"Top 3",3},{2,"Top 5",5},{3,"Top 10",10},{4,"Top 20",20},{5,"Top 50",50},{6,"Top 100",100}})
